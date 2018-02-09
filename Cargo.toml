@@ -17,7 +17,7 @@ path = "src/lib.rs"
 
 [dependencies]
 futures = "0.1"
-futures-cpupool = "0.1"
+futures-pool = { git = "https://github.com/carllerche/futures-pool" }
 lazy_static = "1.0"
 tokio-core = "0.1"
 tokio-io = "0.1"

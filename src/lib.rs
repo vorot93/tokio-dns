@@ -19,7 +19,7 @@
 #![deny(missing_docs)]
 
 extern crate futures;
-extern crate futures_cpupool;
+extern crate futures_pool;
 extern crate tokio_core;
 extern crate tokio_io;
 
